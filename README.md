@@ -1,5 +1,5 @@
 # LLM
-Text to sequence of nodes LLM
+Text to sequence of nodes LLM (based on the google Flan-T5-xl model)
 
 Simple program to generate a sequence of nodes from a user prompt. It  offers two options:
 1) Enter a text describing the functionality you wish to be performed. The program will then print a sequence of nodes implementing this functionality.
@@ -9,3 +9,5 @@ Simple program to generate a sequence of nodes from a user prompt. It  offers tw
 
 
 Program can be run by executing main.py
+
+Executing the Dockerfile creates a Docker container running the program
